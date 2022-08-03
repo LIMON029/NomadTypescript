@@ -22,6 +22,20 @@ function Main() {
         let b = a.toUpperCase()
     }
 
+    type TeamColor = "red" | "blud" | "yellow"
+    type TeamHealth = 1 | 5 | 10
+    interface Team {
+        name: string
+        color: TeamColor
+        health: TeamHealth
+    }
+
+    const myTeam: Team = {
+        name: "nico",
+        color: "red",
+        health: 5
+    }
+
     console.log("[TypePractice.ts] 스크립트 종료")
 }
 

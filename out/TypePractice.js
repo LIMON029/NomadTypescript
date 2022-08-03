@@ -11,6 +11,11 @@ function Main() {
     if (typeof a === 'string') {
         let b = a.toUpperCase();
     }
+    const myTeam = {
+        name: "nico",
+        color: "red",
+        health: 5
+    };
     console.log("[TypePractice.ts] 스크립트 종료");
 }
 export default Main;
