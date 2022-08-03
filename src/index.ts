@@ -1,7 +1,4 @@
-import * as TypeMain from "./TypePractice"
-import * as FuncMain from "./FuncPractice"
-import * as ClassMain from "./ClassInterfacePractice"
+import {init, exit} from "./myPackage";
 
-TypeMain.default();
-FuncMain.default();
-ClassMain.default();
+console.log(init({"url": "true"}))
+console.log(exit(2))

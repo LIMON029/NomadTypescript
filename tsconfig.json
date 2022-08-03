@@ -1,8 +1,10 @@
 {
     "include": ["src"],
     "compilerOptions": {
+        "allowJs": true,
         "outDir": "out",
         "target": "ES6",
-        "lib": ["ES6", "dom"]
+        "lib": ["ES6", "DOM"],
+        "strict": true
     }
 }
